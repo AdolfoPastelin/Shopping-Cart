@@ -10,7 +10,7 @@ export function CartItem ({ product, addItemToCart, decreaseItemQuantity }) {
         <img
           src={`${product.thumbnail}`}
           alt={`${product.title} thumbnail`}
-          className='aspect-square w-full my-2'
+          className='aspect-auto w-auto my-2'
         />
         <footer className='flex gap-4 justify-center items-center py-1'>
           <button onClick={decreaseItemQuantity} className='bg-slate-600 px-2 py-1'>-</button>
